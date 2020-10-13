@@ -10,9 +10,10 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '8d960cfa-9ce0-47ff-884c-eacdd414e820'
-  imageRepository: 'angularappkubernetes'
-  containerRegistry: 'angularapp1.azurecr.io'
+  #dockerRegistryServiceConnection: '8d960cfa-9ce0-47ff-884c-eacdd414e820'
+  dockerRegistryServiceConnection: '3d4f354f-bac5-464f-a1aa-113c577f91d0'
+  imageRepository: 'angular-app'
+  containerRegistry: 'angularappcontainer.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
   
